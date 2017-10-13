@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+       
+}
+a{
+    text-decoration:none;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+}
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+                  
+body{
+    font-family: Arial, sans-serif;
+}
+.main-header{
+    background-color: rgba(232, 99, 78, 1);
+}
+.logo a{
+    font-family: 'Pacifico', cursive;
+    color:white;
+}
+.main-nav a{
+    color: white;
+    margin-right: 5px;
+    padding: 8px;
+}
+ .main-nav a:last-child{
+    margin-right: 0;
+    }
+.main-nav i{
+    color:aqua;
+    margin-right: 3px;
+}
+.bann-avatar{
+    border-radius:50%;
+    width: 490px;
+    height:820px;
+}
+.bann-wrapper{
+    
+    display: flex;
+    justify-content: center;
+    position:relative;
+    margin: 40px 0;
+}
+.bann-caption {
+    position: absolute;
+    left: 10px; right: 10px;  bottom: 10px;
+    bottom: 90px;
+    font-family: 'Josefin Slab', serif;
+    color: red;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+
+}
+.bann-heaing{
+    font-size: 60px;
+}
+.loveJS {
+    font-size:50px;
+    margin: 20px;
+    color: #22f1e0;
+}
+/*common section style*/
+
+.about-section{
+    background: #E5E2D3;
+    display: inline;
+    padding: 0px;
+}
+.about-wrapper{
+    padding: 40px 0;
+}
+
+.heading-line{
+    border-bottom: 2px solid lightgray;
+    line-height: 0;
+    text-align: center;
+}
+
+.section-heading{
+    background: #E5E2D3;
+    display: inline;
+    padding: 0 15px;
+    color: red;
+    
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.col{
+    flex: 1 0 250px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E2D3;
+}
+
+.col-heading{
+    text-transform: uppercase;
+    border-bottom: 1px solid #e7624d;
+    margin: 10px 0;
+    padding: 10px;
+    font: lighter 1.2rem 'Josefin Slab', serif;
+    
+}
+
+.col p{
+    line-height: 1.6rem;
+    font-size: 20px;
+    text-align: center;
+}
